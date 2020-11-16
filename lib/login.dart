@@ -33,7 +33,7 @@ class _BodyState extends State<Body> {
           controller: this.controller,
           decoration: InputDecoration(
               prefixIcon: Icon(Icons.person),
-              labelText: "Type your name:",
+              labelText: "Enter your name:",
               border: OutlineInputBorder(
                   borderSide: BorderSide(width: 5, color: Colors.red)),
               suffixIcon: IconButton(
